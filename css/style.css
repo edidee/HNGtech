@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+nav img{
+    width: 100%;
+    height: auto;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    
+
+}
+
+.home{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+}
+.contribute{
+    height: 40vh;
+    background: #E4EDF2;
+    margin: 0 auto;
+
+}
+.earn{
+    font-size: 16px;
+}
+.text-purple{
+    color: #333CC1;
+}
+.btn{
+    background-color:  #1652F0;
+    color: #fff;
+}
+.sponsors{
+    background-color: #E4EDF2;
+}
+.card{
+    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+footer{
+    background: #24116A;
+    color: #fff;
+    height: 40vh;
+}
+footer h6{
+    font-size: 21px;
+}
+
+.footer-p{
+    font-size: 18px;
+}
+
+.tracks{
+    background: #FFF8F8;
+}
+.h1-color{
+    color: #24116A;
+}
+.head{
+    /* padding-left: 150px; */
+}
+.card-p{
+    font-size: 16px;
+}
