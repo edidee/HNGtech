@@ -15,7 +15,9 @@ nav img{
     
 
 }
-
+.support-2, .become-1{
+    display: none;
+}
 .home{
     width: 80%;
     height: auto;
@@ -23,7 +25,7 @@ nav img{
 
 }
 .contribute{
-    height: 40vh;
+    height: 30vh;
     background: #E4EDF2;
     margin: 0 auto;
 
@@ -34,7 +36,18 @@ nav img{
 .text-purple{
     color: #333CC1;
 }
+.btn-color{
+    background-color:  #1652F0;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}
 .btn{
+    border: 2px solid #1652F0 ;
+
+}
+.btn:hover{
     background-color:  #1652F0;
     color: #fff;
 }
@@ -52,14 +65,14 @@ nav img{
 footer{
     background: #24116A;
     color: #fff;
-    height: 40vh;
+    height: auto;
 }
 footer h6{
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .footer-p{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .tracks{
@@ -68,9 +81,12 @@ footer h6{
 .h1-color{
     color: #24116A;
 }
-.head{
-    /* padding-left: 150px; */
-}
+
 .card-p{
     font-size: 16px;
+}
+@media (min-width: 768px){
+    .support-2, .become-1{
+        display: block;
+    }
 }
